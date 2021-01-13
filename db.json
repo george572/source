@@ -1,0 +1,16 @@
+{
+  "users" : {
+    "admin" : {
+      "username" : "admin@mail.com",
+      "password" : "admin"
+    },
+    "dev": {
+      "username": "dev@mail.com",
+      "password": "dev"
+    },
+    "guest": {
+      "username": "guest@mail.com",
+      "password" : "guest"
+    }
+  }
+}
