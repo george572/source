@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1943c07f-fa11-4b7e-a46a-5a8de35e9150" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/source/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/src/components/Signin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/source/src/components/Signin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/src/mixins/form-validation/Validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/src/mixins/form-validation/Validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -41,10 +41,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Giorgi\Desktop\source\source\source\src\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +62,8 @@
       <workItem from="1610534801507" duration="30000" />
       <workItem from="1610534836884" duration="2377000" />
       <workItem from="1610541966043" duration="56734000" />
-      <workItem from="1610867262558" duration="19523000" />
+      <workItem from="1610867262558" duration="25646000" />
+      <workItem from="1610974701684" duration="282000" />
     </task>
     <servers />
   </component>
