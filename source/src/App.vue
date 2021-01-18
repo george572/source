@@ -1,17 +1,53 @@
 <template>
   <div class="main">
     <div class="signin">
-      <Signin></Signin>
+      <Signin v-if="!hideAuth" @userType="showView"></Signin>
+      <ProjectOwner v-if="isPO"></ProjectOwner>
+      <Developer-View v-if="isDev"></Developer-View>
+      <Guest-View v-if="isGuest"></Guest-View>
     </div>
   </div>
 </template>
 
 <script>
 import Signin from "./components/Signin";
+import DeveloperView from "./components/Developer-View"
+import GuestView from "./components/Guest-View"
+import ProjectOwner from "./components/ProjectOwner"
 export default {
   name: 'App',
   components: {
-    Signin
+    Signin,
+    ProjectOwner,
+    DeveloperView,
+    GuestView,
+  },
+  data(){
+    return {
+      isDev : false,
+      isPO : false,
+      isGuest : false,
+      hideAuth : false
+
+    }
+  },
+  methods: {
+    showView(type) {
+      switch(type) {
+        case "dev":
+          this.isDev = true;
+          this.hideAuth = true;
+          break;
+        case "po":
+          this.isPO = true;
+          this.hideAuth = true;
+          break;
+        case "guest":
+          this.isGuest = true;
+          this.hideAuth = true;
+          break;
+      }
+    }
   }
 }
 </script>
