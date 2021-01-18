@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1943c07f-fa11-4b7e-a46a-5a8de35e9150" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/source/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/src/components/Signin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/source/src/components/Signin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/src/mixins/form-validation/Validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/src/mixins/form-validation/Validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <workItem from="1610534801507" duration="30000" />
       <workItem from="1610534836884" duration="2377000" />
       <workItem from="1610541966043" duration="56734000" />
-      <workItem from="1610867262558" duration="17522000" />
+      <workItem from="1610867262558" duration="19523000" />
     </task>
     <servers />
   </component>

@@ -3,13 +3,13 @@
 
     <div class="inputs">
       <input type="text" placeholder="Type Your Address" v-model="address" ref="address" >
-      <p style="color:#a01414;" v-if="errors.address.touch && !errors.address.minLength" >Min length is 5</p>
+      <p style="color:#a01414;" v-if="errors.address.touch && !errors.address.customValidation" >custom length is 3</p>
       <p style="color:#a01414;" v-if="errors.address.touch && !errors.address.maxLength" >max length is 6</p>
       <p style="color:#a01414;" v-if="errors.address.touch && !errors.address.onlyAlpha" >Only letters are allowed</p>
       <input type="text" placeholder="Type Your Surname" v-model="surname" ref="surname">
       <p style="color:#a01414;" v-if="errors.surname.touch && !errors.surname.minLength" >Min length is 3</p>
       <p style="color:#a01414;" v-if="errors.surname.touch && !errors.surname.onlyAlpha" >Only letters are allowed</p>
-      <input type="text" placeholder="Type Your Surname" v-model="city" ref="city">
+      <input type="text" placeholder="City" v-model="city" ref="city">
       <p style="color:#a01414;" v-if="errors.city.touch && !errors.city.minLength" >Min length is 3</p>
       <p style="color:#a01414;" v-if="errors.city.touch && !errors.city.onlyDigits" >Only Digits are allowed</p>
 
@@ -28,14 +28,13 @@ export default {
       surname : "",
       address : "",
       city : "",
-      showError : false,
     }
   },
     validations : {
       address : {
-        minLength : 5,
         maxLength : 10,
         onlyAlpha : true,
+        customValidation : (value) => {return value.length > 3;}
       },
       surname : {
         minLength  : 3,
@@ -45,8 +44,6 @@ export default {
         minLength  : 3,
         onlyDigits : true,
       }
-
-
   },
   methods : {
   },
